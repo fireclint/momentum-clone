@@ -5,6 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+min-height: 100%;
+background: url(https://source.unsplash.com/featured/?nature) no-repeat center center fixed;
+background-size: cover;
+overflow: none;
+color: #f1f1f1;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .4;
 }
 
 code {
